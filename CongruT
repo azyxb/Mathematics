@@ -1,0 +1,9 @@
+#!/usr/bin/env python
+from math import*
+oT=int(input('Enter your T:\n'))
+ox=float(input("Enter your x:\n"))
+def congru(T,x):
+    n=x//T
+    epsilon=x-(n*T)
+    return(n,epsilon)
+print(congru(oT,ox))
