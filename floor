@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+def flooor(x):
+    oooof=x//1
+    return(oooof)
+x=float(input("Enter it:\n"))
+print(flooor(x))
