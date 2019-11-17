@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-oT=int(input('Enter your T:\n'))
+oT=float(input('Enter your T:\n'))
 ox=float(input("Enter your x:\n"))
 def congru(T,x):
     n=x//T
